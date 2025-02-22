@@ -1,0 +1,35 @@
+main{
+    gap: 56px;
+    padding-block: 72px 144px;
+}
+
+#jobs-info{
+    text-align: center;
+    gap: 8px;
+}
+
+#projects{
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+
+.project{
+    background: var(--gray-300);
+    padding: 12px;
+    gap: 20px;
+    border-radius: 12px;
+    max-width: 330px;
+
+    img{
+        border-radius: 8px;
+        height: 156px;
+    }
+}
+
+.project-info{
+    padding: 4px;
+
+    h4{
+        margin-bottom: 8px;
+    }
+}

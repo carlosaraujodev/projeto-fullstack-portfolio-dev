@@ -1,0 +1,43 @@
+section {
+    background: var(--gray-100);
+    padding-block: 88px 120px;
+    gap: 56px;
+}
+
+#services-info {
+    text-align: center;
+    gap: 8px;
+}
+
+#services {
+    display: flex;
+    gap: 24px;
+}
+
+.service {
+    padding: 20px;
+    gap: 20px;
+    border: 2px solid var(--gray-200);
+    border-radius: 12px;
+    justify-content: space-between;
+    min-width: 280px;
+
+    i {
+        font-size: 48px;
+    }
+
+    &:nth-child(1) {
+
+        color: var(--purple);
+    }
+
+    &:nth-child(2) {
+
+        color: var(--yellow);
+    }
+
+    &:nth-child(3) {
+
+        color: var(--green);
+    }
+}

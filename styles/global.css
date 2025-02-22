@@ -29,18 +29,22 @@
     --text-sm: 400 14px/140% var(--maven-pro);
 }
 
-h2 {
-    font: var(--insconsolata);
+h3 {
+    font: var(--subtitle);
     color: var(--gray-500);
 }
 
-h2 span {
-    color: var(--red);
+body{
+    background-color: var(--gray-200);
 }
 
-h1 {
+span {
+    color: var(--red);
+    font: var(--subtitle);
+}
+
+h2 {
     font: var(--title-md);
-    font-size: 56px;
     color: var(--gray-600);
 }
 

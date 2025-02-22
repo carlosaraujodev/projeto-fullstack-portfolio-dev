@@ -1,3 +1,52 @@
-header{
-    
+header {
+    background-image: url(../assets/Background_Intro.png);
+    background-size: cover;
+    background-clip: border-box;
+    height: fit-content;
+}
+
+#user {
+    display: grid;
+    padding-block: 120px 57px;
+    justify-items: center;
+
+    i {
+        font-size: 32px;
+        color: var(--gray-400);
+    }
+}
+
+#user-info {
+    h2 {
+        text-align: center;
+        margin-block: 56px 8px;
+    }
+
+    &>p {
+        max-width: 680px;
+        margin-block: auto;
+        margin-bottom: 80px;
+    }
+}
+
+#languages {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 94px;
+
+    .language {
+        display: flex;
+        align-items: center;
+        padding: 8px 16px;
+        background: var(--gray-300);
+        border-radius: 999px;
+        gap: 8px;
+
+        span {
+            font: var(--text-md);
+            color: var(--gray-500);
+        }
+
+    }
 }

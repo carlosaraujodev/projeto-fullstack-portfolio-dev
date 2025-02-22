@@ -26,6 +26,10 @@ main{
     }
 }
 
+.project:hover{
+    border: 1.5px solid var(--gray-400);
+}
+
 .project-info{
     padding: 4px;
 

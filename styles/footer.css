@@ -27,6 +27,12 @@ footer {
         color: var(--gray-500);
     }
 
+    a:hover{
+        i:nth-child(1){
+            color: var(--blue);
+        }     
+    }
+
     i:nth-child(1){
         font-size: 28px;
         margin-right: 12px;
